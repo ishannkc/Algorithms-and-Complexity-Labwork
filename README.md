@@ -1,6 +1,6 @@
 # COMP 314 - Algorithms & Complexity
 
-This repository contains the labwork implementations for the coursework of ****COMP 314 (Algorithms & Complexity)**. Contains all implementation code for each lab work.
+This repository contains the labwork implementations for the coursework of **COMP 314 (Algorithms & Complexity)**. Contains all implementation code for each lab work.
 
 ## Lab 1: Sorting Algorithm Analysis
 
