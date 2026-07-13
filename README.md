@@ -33,6 +33,14 @@ Merge sort parallelised with `multiprocessing.Pool`. The array is split in half 
 ### Task 4: DPLL SAT Solver (Backtracking / SAT)
 A recursive DPLL solver for 3-CNF propositional formulas using unit propagation and backtracking to decide satisfiability and produce a satisfying assignment.
 
+## Lab 3: Advanced Algorithms
+
+### Task 1: Recursive Fibonacci vs Dynamic Programming Fibonacci
+Compares the exponential recursive Fibonacci (O(2ⁿ)) against memoized DP Fibonacci (O(n)). Both approaches are benchmarked on n = 1 to 35 and their execution times are plotted to demonstrate the dramatic speedup from dynamic programming.
+
+### Task 2: Connected Components — Sequential vs Parallel DFS
+Finds connected components in an undirected graph using sequential DFS (O(V+E)) and parallel DFS via `ThreadPoolExecutor` (O((V+E)/P)). The user specifies the number of vertices and processors; the program generates a random graph, runs both approaches, and plots the theoretical complexity curves.
+
 ## Folder Structure
 
 ```
@@ -55,11 +63,14 @@ A recursive DPLL solver for 3-CNF propositional formulas using unit propagation 
 │       ├── task3_output.png
 │       ├── task4_output.png
 │       └── task5_output.png
-└── Lab2/
+├── Lab2/
+│   ├── task1.py
+│   ├── task2.py
+│   ├── task3.py
+│   └── task4.py
+└── Lab3/
     ├── task1.py
-    ├── task2.py
-    ├── task3.py
-    └── task4.py
+    └── task2.py
 ```
 
 ## Getting Started
