@@ -1,3 +1,7 @@
+#Dynamic Programming
+
+#Knapsack Problem
+
 def knapsack(weights, values, capacity):
     n = len(weights)
     dp = [[0 for _ in range(capacity + 1)] for _ in range(n + 1)]

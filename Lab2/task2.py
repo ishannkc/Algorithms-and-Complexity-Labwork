@@ -1,3 +1,6 @@
+#Probabilistic Algorithm
+
+#Karger's Minimum Cut Algorithm
 import random
 
 def build_graph(edges):

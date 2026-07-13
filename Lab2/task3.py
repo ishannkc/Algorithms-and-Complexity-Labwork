@@ -1,3 +1,7 @@
+#Parallel Algorithm
+
+#Parallel Merge Sort
+
 import multiprocessing
 
 def merge(left, right):

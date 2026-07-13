@@ -1,3 +1,7 @@
+# 3SAT Problem
+
+#using DPLL Algorithm
+
 def simplify(clauses, assignment):
     new_clauses = []
     for clause in clauses:
